@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+body {
+   
+    font-family: 'Montserrat', sans-serif;
+    height: fit-content;
+    background: url(./images/1RECORTADO.jpg) no-repeat;
+    /*background-size: contain;*/
+    width: 100%;
+    position: relative;
+    
+
+   
+}
+
+
+
+#container {
+    display: block;
+   
+    position: relative;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 70px;
+    text-align: baseline;
+    background: rgba(0, 0, 0, 0.8);
+
+}   
+
+#titulo {
+    text-align: start;
+    
+    
+     
+   
+
+}
+.air {
+    
+    color: white;
+    padding: 10px;
+    
+
+}
+
+
+
+
+#subtitulo {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color:black;
+}
+
+.searchbox {
+    text-align: center;
+    
+    color: white;
+}
+
+main {
+    padding-bottom: 220px;
+}
+#container input#busca{
+    width: 500px;
+    height: 30px;
+    background:  rgba(255,255,255,0.5);
+    border: none;
+    font-size: 10pt;
+    
+    color: red;
+    padding-left: 45px;
+    border-radius: 20px;
+    
+}
+
+#quadros {
+    
+    display: flex;
+    height: 400px;
+    
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 200px;
+
+    
+}
+
+
+.quadro1 , .quadro2 , .quadro3 {
+    
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    color:black;
+    margin: 80px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255 , 0.1);
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    transition:0.5 ease;
+    cursor: pointer;
+}
+
+.quadro1:hover {
+    transform: scale(1.2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.quadro2:hover {
+    transform: scale(1.2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+
+}
+
+.quadro3:hover {
+    transform: scale(1.2);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.titulocard {
+    margin: 20px;
+}
+
+.figuracard {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    margin: 0px;
+   
+
+}
+
+
+#rodape {
+    position: absolute;
+    text-align: center;
+    color:white;
+    bottom: 0;
+    width: 100%;
+   
+    background: rgba(0, 0, 0, 0.8);
+  
+    
+}
+
+#dicas {
+   height: 500px;
+   
+}
+
+.direitos {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+#titulo a:visited {
+    color:white;
+}
+
+.login a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.cadastre a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.sobre a:visited {
+    color: white;
+    text-decoration: none;
+}

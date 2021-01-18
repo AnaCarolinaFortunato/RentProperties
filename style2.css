@@ -1,0 +1,323 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+body {
+   
+    font-family: 'Montserrat', sans-serif;
+    height: fit-content;
+    background: white;
+    /*background-size: contain;*/
+    width: 100%;
+    position: relative;
+    
+
+   
+}
+
+
+
+#container {
+    display: block;
+    position: relative;
+   
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 70px;
+    text-align: baseline;
+    background: rgba(0, 0, 0, 0.8);
+
+}   
+
+#titulo {
+    text-align: start;
+    
+    
+     
+   
+
+}
+.air {
+    
+    color: white;
+    padding: 10px;
+    
+
+}
+
+
+
+
+
+
+#subtitulo {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color:black;
+}
+
+.searchbox {
+    text-align: center;
+    
+    color: white;
+}
+
+main {
+    padding-bottom: 250px;
+}
+#container input#busca{
+    width: 500px;
+    height: 30px;
+    background:  rgba(255,255,255,0.5);
+    border: none;
+    font-size: 10pt;
+    
+    
+    padding-left: 45px;
+    border-radius: 20px;
+    
+}
+
+.cards {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+
+    
+}
+
+.cardsproperty{
+    height: 240px;
+    width: 250px;
+    margin: 30px;
+   
+    
+}
+
+
+.titulocard {
+    margin: 20px;
+}
+
+
+.imageprop{
+    height: 150px;
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+.infoprop{
+    margin-left: 15px;
+}
+
+
+
+
+#rodape {
+    position: absolute;
+    text-align: center;
+    color:white;
+    bottom: 0;
+    width: 100%;
+   
+    
+    background: rgba(0, 0, 0, 0.8);
+  
+    
+}
+
+#dicas {
+   height: 500px;
+   
+}
+
+.direitos {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#titulo a:visited {
+    color:white;
+}
+
+#pagelogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.log , .but , .lembrar {
+    /*display: flex;
+    margin: auto;
+    align-items: center;*/
+    width: 200px;
+    height: 50px;
+    background:  rgba(255,255,255,0.5);
+    margin: 15px;
+    font-size: 10pt;
+    text-align: center;
+    align-content: center;
+    
+    
+  
+    border-radius: 20px;
+}
+
+
+.but {
+    margin: 15px;
+    
+}
+
+.lembrar {
+    margin-bottom: 200px;
+}
+
+#login , #senha , #buttonlogin {
+    width: 200px;
+    height: 50px;
+    border: black 2px solid;
+    margin: auto;
+    font-size: 10pt;
+    text-align: center;
+    
+  
+    border-radius: 20px
+}
+
+#buttonlogin {
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+#pagelogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.cad , .drop1 {
+    margin: 15px;
+    text-align: center;
+}
+
+#nome , #endereco , #email , #senha2 , #nascimento , #estado {
+    border-radius: 15px;
+    height: 30px;
+    text-align: center;
+    border: black solid 2px;
+}
+#endereco , #nome {
+    width: 300px;
+}
+#email , #senha2 {
+    width: 300px;
+}
+
+.but {
+    margin: auto;
+}
+
+.login a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.cadastre a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.sobre a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+
+.textosobre {
+    text-align: justify;
+    
+    width: 500px;
+    margin: auto;
+}
+
+.midias {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.mid1 , .mid2 {
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: 10px;
+    margin-top: 10px;
+  
+}
+
+.mid2 {
+    position: relative;
+    right: 8px;
+    
+    
+}
+
+
+#ft {
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+   margin-bottom: 50px;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.midias a{
+    color: black;
+}
+
+.midias a:visited{
+    color: black;
+}
