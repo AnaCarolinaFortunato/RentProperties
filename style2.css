@@ -98,6 +98,8 @@ main {
     align-items: center;
     flex-wrap: wrap;
     
+   
+    
     
 
     
@@ -105,8 +107,10 @@ main {
 
 .cardsproperty{
     height: 240px;
-    width: 250px;
+    width: 280px;
     margin: 30px;
+    text-align: center;
+    
    
     
 }
@@ -321,3 +325,4 @@ a:visited {
 .midias a:visited{
     color: black;
 }
+
